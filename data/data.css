@@ -389,7 +389,7 @@ input[type='checkbox']:checked ~ .header__square-pic {
   line-height: 24px; /* 100% */
 }
 
-.data__link-containet {
+.data__link-container {
   margin: 0;
   padding: 0 80px 0;
   display: flex;

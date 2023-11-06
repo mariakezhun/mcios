@@ -1,25 +1,32 @@
+const accordionItemHeaders = document.querySelectorAll(
+  '.data__accordion-item-header'
+);
+const accordionItem = document.querySelector(
+  '.data__accordion-item-header_type_white'
+);
+// const blueContainer = document.querySelector('.plus-height');
+const height = document.querySelector('.data__accordion-item-body.data__accordion-item-body_type_blue');
+// console.log(height.offsetHeight)
+// console.log(height.style)
 
-const accordionItemHeaders = document.querySelectorAll(".data__accordion-item-header");
-
-accordionItemHeaders.forEach(accordionItemHeader => {
-  accordionItemHeader.addEventListener("click", event => {
-    
+accordionItemHeaders.forEach((accordionItemHeader) => {
+  accordionItemHeader.addEventListener('click', (event) => {
     // Uncomment in case you only want to allow for the display of only one collapsed item at a time!
-    
+
     // const currentlyActiveAccordionItemHeader = document.querySelector(".accordion-item-header.active");
     // if(currentlyActiveAccordionItemHeader && currentlyActiveAccordionItemHeader!==accordionItemHeader) {
     //   currentlyActiveAccordionItemHeader.classList.toggle("active");
     //   currentlyActiveAccordionItemHeader.nextElementSibling.style.maxHeight = 0;
     // }
 
-    accordionItemHeader.classList.toggle("active");
+    accordionItemHeader.classList.toggle('active');
     const accordionItemBody = accordionItemHeader.nextElementSibling;
-    if(accordionItemHeader.classList.contains("active")) {
-      accordionItemBody.style.maxHeight = accordionItemBody.scrollHeight + "px";
-    }
-    else {
+    if (accordionItemHeader.classList.contains('active')) {
+      accordionItemBody.style.maxHeight = accordionItemBody.scrollHeight + height.scrollHeight + 'px';
+      // console.log(height.scrollHeight)
+      // console.log(accordionItemHeader)
+    } else {
       accordionItemBody.style.maxHeight = 0;
     }
-    
   });
 });
