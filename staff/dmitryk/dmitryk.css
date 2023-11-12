@@ -483,6 +483,10 @@ input[type='checkbox']:checked ~ .header__square-pic {
   margin-bottom: 30px;
 }
 
+.staff__publication-article:last-child {
+  margin-bottom: 0;
+}
+
 .staff__publication-type {
   display: flex;
   padding: 8px;
