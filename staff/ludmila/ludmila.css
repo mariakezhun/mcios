@@ -386,13 +386,13 @@ input[type='checkbox']:checked ~ .header__square-pic {
 
 .staff__years-text {
   display: flex;
-  column-gap: 40px;
+  column-gap: 20px;
 }
 
 .staff__year {
   margin: 0;
   padding: 0;
-  max-width: 50px;
+  max-width: 70px;
   width: 100%;
   color: #969696;
   font-family: Random Grotesque Standard;
