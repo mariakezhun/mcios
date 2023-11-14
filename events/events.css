@@ -243,7 +243,7 @@ input[type='checkbox']:checked ~ .header__square-pic {
 
 .event__title-container {
   margin: 0 20px 0;
-  padding: 20px;
+  padding: 15px 20px 15px 20px;
   background: #3458ff;
 }
 
@@ -397,6 +397,17 @@ input[type='checkbox']:checked ~ .header__square-pic {
   font-style: normal;
   font-weight: 400;
   line-height: 32px; /* 80% */
+}
+
+.event__speaker{
+  margin: 0;
+  padding: 0;
+  color: #3458ff;
+  font-family: Random Grotesque Standard;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 100% */
 }
 
 .event__paragraph {
