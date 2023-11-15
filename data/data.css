@@ -270,10 +270,10 @@ input[type='checkbox']:checked ~ .header__square-pic {
   padding: 0;
   color: #333;
   font-family: Random Grotesque Standard;
-  font-size: 64px;
+  font-size: 41px;
   font-style: normal;
   font-weight: 400;
-  line-height: 64px; /* 100% */
+  line-height: 41px; /* 100% */
   display: flex;
   align-items: center;
   position: relative;
@@ -478,6 +478,7 @@ input[type='checkbox']:checked ~ .header__square-pic {
   border-radius: 10px;
   background: #b3ffd1;
   width: max-content;
+  flex: auto;
 }
 
 .data__info-block-row-container {
@@ -495,6 +496,10 @@ input[type='checkbox']:checked ~ .header__square-pic {
   font-style: normal;
   font-weight: 400;
   line-height: 75%;
+}
+
+.data__info-text-with{
+  width: 20px;
 }
 
 .data__info-numb {

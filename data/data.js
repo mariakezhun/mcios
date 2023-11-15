@@ -22,7 +22,7 @@ accordionItemHeaders.forEach((accordionItemHeader) => {
     accordionItemHeader.classList.toggle('active');
     const accordionItemBody = accordionItemHeader.nextElementSibling;
     if (accordionItemHeader.classList.contains('active')) {
-      accordionItemBody.style.maxHeight = accordionItemBody.scrollHeight + height[0].scrollHeight + height[1].scrollHeight + 'px';
+      accordionItemBody.style.maxHeight = accordionItemBody.scrollHeight + height[0].scrollHeight + height[1].scrollHeight + height[2].scrollHeight + 'px';
       console.log(height[1].scrollHeight)
       // console.log(accordionItemHeader)
     } else {
