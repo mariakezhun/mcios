@@ -29,6 +29,8 @@ accordionItemHeaders.forEach((accordionItemHeader) => {
         height[0].scrollHeight +
         height[1].scrollHeight +
         height[2].scrollHeight +
+        height[3].scrollHeight +
+        height[4].scrollHeight +
         'px';
       console.log(height[1].scrollHeight);
       // console.log(accordionItemHeader)
