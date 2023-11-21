@@ -41,7 +41,7 @@
   padding: 60px 0 0;
   width: 100%;
   position: fixed;
-  z-index: 100;
+  z-index: 1000;
 }
 
 .header-container {
@@ -109,9 +109,15 @@
   margin-left: 60px;
 }
 
-@media all and (max-width: 1014px) {
+@media all and (max-width: 1150px) {
   .header__nav-bar {
-    margin-left: 30px;
+    margin-left: 20px;
+  }
+}
+
+@media all and (max-width: 900px) {
+  .header__nav-bar {
+    display: none;
   }
 }
 
@@ -120,7 +126,7 @@
   padding: 0;
   color: #fff;
   font-family: Random Grotesque Standard;
-  font-size: 15px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -130,6 +136,96 @@
 
 .header__link:hover {
   opacity: 0.8;
+  text-decoration: underline;
+}
+
+@media all and (max-width: 1100px) {
+  .header__link {
+    font-size: 16px;
+  }
+}
+
+.header__square-pic {
+  width: 440px;
+  height: 100vh;
+  /* display: none; */
+  visibility: hidden;
+  background: linear-gradient(345deg, #3458ff 3%, #b3ffd1 45%, #f0f0f0 83.3%);
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 40;
+  opacity: 0;
+  transition: visibility 0.5s, opacity 0.5s ease-in-out;
+  display: flex;
+  justify-content: center;
+}
+
+.header__mob-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 205px;
+  margin-top: 60px;
+}
+
+.menu__active {
+  visibility: visible;
+  opacity: 1;
+  transition-delay: 0s;
+}
+
+input[type='checkbox']:checked ~ .header__square-pic {
+  display: block;
+}
+
+.burger {
+  display: none;
+}
+
+@media all and (max-width: 900px) {
+  .burger {
+    z-index: 45;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.burger_type_blue {
+  display: none;
+}
+
+/* .burger_type_white {
+  display: none;
+}  */
+
+.burger_type_none {
+  display: none;
+}
+
+.burger_type_block {
+  display: block;
+}
+/* 
+.header__link:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+} */
+
+.header__link_type_mob {
+  color: #3458ff;
+
+  font-family: Random Grotesque Standard;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.header__link_type_mob:hover {
+  opacity: 0.8;
+  text-decoration: underline;
 }
 
 .research-prj__margin {
@@ -172,6 +268,7 @@
   line-height: 4.5px; /* 12.5% */
   position: absolute;
   right: 0;
+  top: 30px;
 }
 .research-prj__accordion-item-header.active::after {
   content: '▲';
@@ -353,9 +450,113 @@
   line-height: 4.5px; /* 12.5% */
   position: absolute;
   right: 0;
+  top: 15px;
 }
 .research-prj__accordion-item-header_type_white.active::after {
   content: '▲';
+}
+
+.research-prj__container {
+  padding: 20px;
+  margin: 20px 20px 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.research-prj__type {
+  display: flex;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  /* gap: 10px; */
+  border-radius: 5px;
+  background: #3458ff;
+  width: max-content;
+}
+
+.research-prj__type-text {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-family: Random Grotesque Standard;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 100% */
+}
+
+.research-prj__link-container {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  transition: opacity 1s ease-in-out;
+}
+
+.research-prj__link-container:hover {
+  opacity: 0.8;
+}
+
+.research-prj__title {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  font-family: Random Grotesque Standard;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 100% */
+  max-width: 1000px;
+}
+
+.research-prj__arrow {
+  margin: 0;
+  padding: 0;
+  color: #3458ff;
+  text-align: right;
+  font-family: Random Grotesque Standard;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-left: 20px;
+}
+
+.research-prj__date {
+  margin: 0;
+  padding: 0;
+  color: #969696;
+  font-family: Random Grotesque Standard;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 100% */
+}
+
+.research-prj__button-container {
+  margin: 60px auto 40px;
+  transition: opacity 1s ease-in-out;
+}
+
+.research-prj__button-container:hover {
+  opacity: 0.8;
+}
+
+.research-prj__button {
+  margin: 0;
+  padding: 10px 20px;
+  color: #fff;
+  font-family: Random Grotesque Standard;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 100% */
+  border: none;
+  border-radius: 10px;
+  background: #3458ff;
+  cursor: pointer;
 }
 
 .footer {
