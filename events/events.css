@@ -279,7 +279,7 @@ input[type='checkbox']:checked ~ .header__square-pic {
   border-radius: 10px;
   background: #3458ff;
   height: 132px;
-  align-self: center;
+  /* align-self: center; */
 }
 
 .event__calendar-text {
