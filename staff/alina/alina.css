@@ -322,6 +322,14 @@ input[type='checkbox']:checked ~ .header__square-pic {
   }
 }
 
+@media all and (max-width: 700px) {
+  .staff__name {
+    font-size: 41px;
+    line-height: 41px;
+    margin: 30px 0 0;
+  }
+}
+
 .staff__degree {
   margin: 0;
   padding: 0;
@@ -391,6 +399,21 @@ input[type='checkbox']:checked ~ .header__square-pic {
   max-width: 640px;
 }
 
+@media all and (max-width: 500px) {
+  .staff__block-title {
+    font-size: 32px;
+    line-height: 32px;
+    margin: 0 0 30px;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .staff__block-title {
+    font-size: 26px;
+    line-height: 26px;
+  }
+}
+
 .staff__years-text-container {
   display: flex;
   flex-direction: column;
@@ -400,6 +423,13 @@ input[type='checkbox']:checked ~ .header__square-pic {
 .staff__years-text {
   display: flex;
   column-gap: 20px;
+}
+
+@media all and (max-width: 420px) {
+  .staff__years-text {
+    flex-direction: column;
+    row-gap: 10px;
+  }
 }
 
 .staff__year {
@@ -415,6 +445,14 @@ input[type='checkbox']:checked ~ .header__square-pic {
   line-height: 24px; /* 100% */
 }
 
+@media all and (max-width: 700px) {
+  .staff__year {
+    font-size: 20px;
+    line-height: 20px;
+    max-width: 50px;
+  }
+}
+
 .staff__text {
   margin: 0;
   padding: 0;
@@ -428,6 +466,13 @@ input[type='checkbox']:checked ~ .header__square-pic {
   max-width: 560px;
 }
 
+@media all and (max-width: 700px) {
+  .staff__text {
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+
 .staff__contacts {
   max-width: 240px;
   width: 100%;
@@ -439,6 +484,8 @@ input[type='checkbox']:checked ~ .header__square-pic {
 @media all and (max-width: 700px) {
   .staff__contacts {
     margin-bottom: 60px;
+    align-self: center;
+    align-items: center;
   }
 }
 
@@ -457,6 +504,12 @@ input[type='checkbox']:checked ~ .header__square-pic {
   display: flex;
   flex-direction: column;
   row-gap: 5px;
+}
+
+@media all and (max-width: 700px) {
+  .staff__contacts-container {
+    align-items: center;
+  }
 }
 
 .staff__contacts-link {
@@ -547,6 +600,13 @@ input[type='checkbox']:checked ~ .header__square-pic {
   max-width: 840px;
 }
 
+@media all and (max-width: 650px) {
+  .staff__publication-title {
+    font-size: 24px;
+    line-height: 24px; /* 100% */
+  }
+}
+
 .staff__publication-arrow {
   margin: 0;
   padding: 0;
@@ -557,6 +617,7 @@ input[type='checkbox']:checked ~ .header__square-pic {
   font-style: normal;
   font-weight: 400;
   line-height: 32px; /* 80% */
+  margin-left: 10px;
 }
 
 .staff__publication-authors {
@@ -673,6 +734,13 @@ input[type='checkbox']:checked ~ .header__square-pic {
   font-weight: 400;
   line-height: normal;
   font-kerning: none;
+}
+
+@media all and (max-width: 500px) {
+  .staff__tag {
+    font-size: 20px;
+    line-height: 20px;
+  }
 }
 
 .footer {
