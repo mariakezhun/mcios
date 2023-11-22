@@ -282,6 +282,7 @@ input[type='checkbox']:checked ~ .header__square-pic {
   align-items: center;
   position: relative;
   cursor: pointer;
+  padding-right: 30px;
 }
 
 .data__accordion-item-header::after {
