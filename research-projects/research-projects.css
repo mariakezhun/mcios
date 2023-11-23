@@ -218,9 +218,14 @@ input[type='checkbox']:checked ~ .header__square-pic {
   text-decoration: underline;
 } */
 
-.header__link_type_mob {
-  color: #3458ff;
+.header__link_type_mob-container{
+  text-decoration: none;
+}
 
+.header__link_type_mob {
+  margin: 0;
+  padding: 0;
+  color: #3458ff;
   font-family: Random Grotesque Standard;
   font-size: 24px;
   font-style: normal;
