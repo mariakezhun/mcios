@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/random-grotesque-standard?styles=138799');
+
 .body {
   background-color: #f0f0f0;
   margin: 0;
@@ -128,7 +130,7 @@
   margin: 0;
   padding: 0;
   color: #fff;
-  font-family: Random Grotesque Standard;
+  font-family: Random Grotesque Standard Book;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -229,7 +231,7 @@ input[type='checkbox']:checked ~ .header__square-pic {
   margin: 0;
   padding: 0;
   color: #3458ff;
-  font-family: Random Grotesque Standard;
+  font-family: Random Grotesque Standard Book;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -304,7 +306,7 @@ input[type='checkbox']:checked ~ .header__square-pic {
   margin: 0;
   padding: 0;
   color: #fff;
-  font-family: Random Grotesque Standard;
+  font-family: Random Grotesque Standard Book;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -315,7 +317,7 @@ input[type='checkbox']:checked ~ .header__square-pic {
   margin: 0;
   padding: 0;
   color: #333;
-  font-family: Random Grotesque Standard;
+  font-family: Random Grotesque Standard Book;
   font-size: 64px;
   font-style: normal;
   font-weight: 400;
@@ -340,7 +342,7 @@ input[type='checkbox']:checked ~ .header__square-pic {
   margin: 0;
   padding: 0;
   color: #3458ff;
-  font-family: Random Grotesque Standard;
+  font-family: Random Grotesque Standard Book;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -397,7 +399,7 @@ input[type='checkbox']:checked ~ .header__square-pic {
   margin: 0 0 60px;
   padding: 0;
   color: #3458ff;
-  font-family: Random Grotesque Standard;
+  font-family: Random Grotesque Standard Book;
   font-size: 41px;
   font-style: normal;
   font-weight: 400;
@@ -444,7 +446,7 @@ input[type='checkbox']:checked ~ .header__square-pic {
   max-width: 70px;
   width: 100%;
   color: #969696;
-  font-family: Random Grotesque Standard;
+  font-family: Random Grotesque Standard Book;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -464,7 +466,7 @@ input[type='checkbox']:checked ~ .header__square-pic {
   padding: 0;
   font-kerning: none;
   color: #333;
-  font-family: Random Grotesque Standard;
+  font-family: Random Grotesque Standard Book;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -499,7 +501,7 @@ input[type='checkbox']:checked ~ .header__square-pic {
   margin: 0;
   padding: 0;
   color: #3458ff;
-  font-family: Random Grotesque Standard;
+  font-family: Random Grotesque Standard Book;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -530,7 +532,7 @@ input[type='checkbox']:checked ~ .header__square-pic {
   margin: 0;
   padding: 0;
   color: #333;
-  font-family: Random Grotesque Standard;
+  font-family: Random Grotesque Standard Book;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -574,7 +576,7 @@ input[type='checkbox']:checked ~ .header__square-pic {
   margin: 0;
   padding: 0;
   color: #fff;
-  font-family: Random Grotesque Standard;
+  font-family: Random Grotesque Standard Book;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -598,7 +600,7 @@ input[type='checkbox']:checked ~ .header__square-pic {
   margin: 0;
   padding: 0;
   color: #333;
-  font-family: Random Grotesque Standard;
+  font-family: Random Grotesque Standard Book;
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
@@ -618,7 +620,7 @@ input[type='checkbox']:checked ~ .header__square-pic {
   padding: 0;
   color: #3458ff;
   text-align: right;
-  font-family: Random Grotesque Standard;
+  font-family: Random Grotesque Standard Book;
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
@@ -641,7 +643,7 @@ input[type='checkbox']:checked ~ .header__square-pic {
   margin: 0;
   padding: 0;
   color: #3458ff;
-  font-family: Random Grotesque Standard;
+  font-family: Random Grotesque Standard Book;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -658,7 +660,7 @@ input[type='checkbox']:checked ~ .header__square-pic {
   margin: 0;
   padding: 0;
   color: #3458ff;
-  font-family: Random Grotesque Standard;
+  font-family: Random Grotesque Standard Book;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -669,7 +671,7 @@ input[type='checkbox']:checked ~ .header__square-pic {
   margin: 0;
   padding: 0;
   color: #969696;
-  font-family: Random Grotesque Standard;
+  font-family: Random Grotesque Standard Book;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -680,7 +682,7 @@ input[type='checkbox']:checked ~ .header__square-pic {
   margin: 0;
   padding: 0;
   color: #969696;
-  font-family: Random Grotesque Standard;
+  font-family: Random Grotesque Standard Book;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -691,7 +693,7 @@ input[type='checkbox']:checked ~ .header__square-pic {
   margin: 0;
   padding: 0;
   color: #333;
-  font-family: Random Grotesque Standard;
+  font-family: Random Grotesque Standard Book;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -734,7 +736,7 @@ input[type='checkbox']:checked ~ .header__square-pic {
   margin: 0;
   padding: 0;
   color: #3458ff;
-  font-family: Random Grotesque Standard;
+  font-family: Random Grotesque Standard Book;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -822,7 +824,7 @@ input[type='checkbox']:checked ~ .header__square-pic {
   padding: 0;
   text-decoration: none;
   color: #fff;
-  font-family: Random Grotesque Standard;
+  font-family: Random Grotesque Standard Book;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -846,7 +848,7 @@ input[type='checkbox']:checked ~ .header__square-pic {
   margin: 0;
   padding: 0;
   color: #fff;
-  font-family: Random Grotesque Standard;
+  font-family: Random Grotesque Standard Book;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
