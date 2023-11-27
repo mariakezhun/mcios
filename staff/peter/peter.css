@@ -341,6 +341,12 @@ input[type='checkbox']:checked ~ .header__square-pic {
   line-height: 24px; /* 100% */
 }
 
+@media all and (max-width: 700px) {
+  .staff__degree {
+    text-align: center;
+  }
+}
+
 .staff__img {
   max-width: 240px;
   width: 100%;
