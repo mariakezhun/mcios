@@ -223,7 +223,7 @@ input[type='checkbox']:checked ~ .header__square-pic {
   text-decoration: underline;
 } */
 
-.header__link_type_mob-container{
+.header__link_type_mob-container {
   text-decoration: none;
 }
 
@@ -385,7 +385,6 @@ input[type='checkbox']:checked ~ .header__square-pic {
     top: 5px;
   }
 }
-
 
 .data__accordion-item-header.active::after {
   content: '▲';
@@ -881,6 +880,189 @@ input[type='checkbox']:checked ~ .header__square-pic {
   border-radius: 5px;
   background: #fff;
   /* border: 2px solid #b3ffd1; */
+}
+
+.data__otz-gap {
+  display: flex;
+  row-gap: 20px;
+  flex-direction: column;
+}
+
+.data__otz-title-container {
+  display: flex;
+  max-width: 1120px;
+  padding: 15px 0px 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 2px solid #3458ff;
+}
+
+.data__otz-title {
+  margin: 0;
+  padding: 0;
+  color: #3458ff;
+  text-align: center;
+  font-family: Random Grotesque Standard Book;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px; /* 100% */
+}
+
+.data__otz-line {
+  display: flex;
+  gap: 20px;
+}
+
+.data__otz-block-line {
+  height: 32px;
+  padding: 10px;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  border: 2px solid #3458ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.data__otz-line-block_type_text {
+  margin: 0;
+  color: #3458ff;
+  font-family: Random Grotesque Standard Book;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 133.333% */
+  max-width: max-content;
+  text-wrap: nowrap;
+}
+
+.data__otz-line-block_color_blue {
+  background: #3458ff;
+  color: #fff;
+}
+
+.data__otz-sq-block {
+  border-radius: 10px;
+  display: flex;
+  height: 260px;
+  width: 100%;
+  min-width: 243px;
+  max-width: 260px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.data__otz-sq-block_color_blue {
+  background: #3458ff;
+}
+
+.data__otz-text-s {
+  margin: 0;
+  padding: 0;
+  font-family: Random Grotesque Standard Book;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 100% */
+}
+
+.data__otz-text-s_color_white {
+  color: #fff;
+}
+
+.data__otz-sq-numb-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.data__otz-sq-numb {
+  margin: 0;
+  padding: 0;
+  font-family: Random Grotesque Standard Book;
+  font-size: 150px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110px;
+  row-gap: 10px;
+}
+
+.data__otz-numb_color_white {
+  color: #fff;
+}
+
+.data__otz-rec-block {
+  border-radius: 10px;
+  width: 100%;
+  max-width: 760px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.data__otz-rec-block_color_stroke-blue {
+  border: 2px solid #3458ff;
+}
+
+.data__otz-title-numb-blocks {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.data__otz-title-numb-blocks_type_inner {
+  max-width: 370px;
+  align-self: flex-end;
+}
+
+.data__otz-title-numb-block-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+}
+
+.data__otz-title-block {
+  margin: 0;
+  padding: 10px;
+  color: #3458ff;
+  font-family: Random Grotesque Standard Book;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.data__otz-title-block_color_stroke-blue {
+  border: 2px solid #3458ff;
+}
+
+.data__otz-numb-block {
+  margin: 0;
+  width: 38px;
+  height: 32px;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: #3458ff;
+  color: #fff;
+  font-family: Random Grotesque Standard Book;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 .footer {
