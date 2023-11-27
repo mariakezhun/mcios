@@ -396,6 +396,13 @@ input[type='checkbox']:checked ~ .header__square-pic {
   background-size: 380%;
 }
 
+.staff__yurii {
+  background-image: url(https://i.pinimg.com/originals/0b/03/47/0b0347ca555fcc00cb8c70e609312fae.png);
+  background-position-x: 39%;
+  background-position-y: 3%;
+  background-size: 170%;
+}
+
 .staff__ludmila {
   background-image: url(https://i.pinimg.com/originals/e8/ee/50/e8ee50d0c86df57f764369fd54b48d24.webp);
   background-position-x: 50%;
