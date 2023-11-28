@@ -887,6 +887,7 @@ input[type='checkbox']:checked ~ .header__square-pic {
   display: flex;
   row-gap: 20px;
   flex-direction: column;
+  margin: 60px 0 0;
 }
 
 .data__otz-title-container {
@@ -946,6 +947,17 @@ input[type='checkbox']:checked ~ .header__square-pic {
   color: #fff;
 }
 
+.data__otz-line-block_type_text-m{
+  margin: 0;
+  font-family: Random Grotesque Standard Book;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 133.333% */
+  max-width: 1120px;
+  width: 100%;
+}
+
 .data__otz-sq-block {
   border-radius: 10px;
   display: flex;
@@ -992,9 +1004,21 @@ input[type='checkbox']:checked ~ .header__square-pic {
   max-width: 332px;
 }
 
+.data__otz-text-s_place_three-wave {
+  max-width: 332px;
+}
+
+.data__otz-text-s_place_four-wave{
+  max-width: 280px;
+}
+
 .data__otz-sq-numb-text {
   display: flex;
   flex-direction: column;
+}
+
+.data__otz-sq-numb-text_place_three-wave {
+  align-self: flex-end;
 }
 
 .data__otz-sq-numb {
@@ -1049,16 +1073,30 @@ input[type='checkbox']:checked ~ .header__square-pic {
   max-width: 713px;
 }
 
+.data__otz-rec-block_place_three-wave {
+  max-width: 663px;
+}
+
+.data__otz-rec-block_place_four-wave{
+  max-width: 1120px;
+}
+
 .data__otz-title-numb-blocks {
   display: flex;
-  gap: 10px;
+  /* gap: 10px; */
   align-items: center;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .data__otz-title-numb-blocks_type_inner {
   max-width: 370px;
   align-self: flex-end;
+  gap: 5px;
+}
+
+.data__otz-title-numb-blocks_type_with{
+  width: 100%;
 }
 
 .data__otz-title-numb-block-container {
@@ -1158,6 +1196,84 @@ input[type='checkbox']:checked ~ .header__square-pic {
   position: absolute;
   top: 0;
   right: 188px;
+}
+
+.data__otz-rec-block_image_stetascop {
+  padding: 0;
+  position: relative;
+  max-width: 437px;
+  min-width: 300px;
+  height: 297px;
+  display: block;
+}
+
+.data__otz-svg-stet {
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  z-index: 2;
+}
+
+.data__otz-svg-anketa {
+  position: absolute;
+  bottom: 24px;
+  right: 14.3px;
+}
+
+.data__otz-snow-med {
+  position: absolute;
+  bottom: 24px;
+  left: 0;
+}
+
+.data__otz-svg-snow-3 {
+  position: absolute;
+  bottom: 17px;
+  right: 12px;
+}
+
+.data__otz-svg-snow-2 {
+  position: absolute;
+  top: 33px;
+  right: 170px;
+}
+
+.data__otz-svg-capsula {
+  position: absolute;
+  top: 59px;
+  left: 171px;
+}
+
+.data__otz-sq-block_image_doctor {
+  display: block;
+  position: relative;
+  padding: 0;
+  min-width: 263px;
+  max-width: 300px;
+  height: 300px;
+}
+
+.data__otz-svg-doctor {
+  position: absolute;
+  bottom: 0;
+  right: 34px;
+  z-index: 5;
+}
+
+.data__otz-svg-left {
+  position: absolute;
+  top: 0;
+  left: 4.84px;
+  width: 120px;
+  height: 300px;
+}
+
+.data__otz-svg-right {
+  position: absolute;
+  top: 0;
+  right: -5px;
+  width: 113px;
+  height: 300px;
 }
 
 .footer {
