@@ -1,4 +1,5 @@
 @import url('https://fonts.cdnfonts.com/css/random-grotesque-standard?styles=138799');
+@import url('https://fonts.cdnfonts.com/css/random-grotesque-standard?styles=138797');
 
 .body {
   background-color: #f0f0f0;
@@ -976,6 +977,21 @@ input[type='checkbox']:checked ~ .header__square-pic {
   color: #fff;
 }
 
+.data__otz-text-s_color_blue {
+  color: #3458ff;
+}
+
+.data__otz-text-s_type_bold {
+  font-family: Random Grotesque Standard Bold;
+  font-weight: 700;
+}
+
+.data__otz-text-s_place_two-wave {
+  align-self: flex-end;
+  text-align: right;
+  max-width: 332px;
+}
+
 .data__otz-sq-numb-text {
   display: flex;
   flex-direction: column;
@@ -996,7 +1012,12 @@ input[type='checkbox']:checked ~ .header__square-pic {
   color: #fff;
 }
 
+.data__otz-numb_color_blue {
+  color: #3458ff;
+}
+
 .data__otz-rec-block {
+  height: 260px;
   border-radius: 10px;
   width: 100%;
   max-width: 760px;
@@ -1010,8 +1031,22 @@ input[type='checkbox']:checked ~ .header__square-pic {
   border: 2px solid #3458ff;
 }
 
-.data__otz-rec-block_type_no-padding {
+.data__otz-rec-block_color_blue {
+  background: #3458ff;
+}
+
+.data__otz-rec-block_image_girl-gr {
   padding: 0;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  height: 297px;
+  max-width: 840px;
+  width: 100%;
+}
+
+.data__otz-rec-block_place_two-wave {
+  max-width: 713px;
 }
 
 .data__otz-title-numb-blocks {
@@ -1072,6 +1107,57 @@ input[type='checkbox']:checked ~ .header__square-pic {
 
 .data__otz-svg-1 {
   width: 100%;
+}
+
+.data__otz-svg-gr {
+  position: absolute;
+  top: 16.56px;
+  left: 95.88px;
+  z-index: 4;
+}
+
+.data__otz-svg-girl {
+  position: absolute;
+  top: 38.25px;
+  right: 28.75px;
+  z-index: 5;
+}
+
+.data__otz-svg-girl-back {
+  position: absolute;
+  top: 19px;
+  right: 44px;
+}
+
+.data__otz-svg-gr-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.data__otz-svg-med {
+  position: absolute;
+  bottom: 34px;
+  left: 126.27px;
+  z-index: 6;
+}
+
+.data__otz-svg-pict-cat {
+  position: absolute;
+  top: 0;
+  right: 313px;
+}
+
+.data__otz-svg-table {
+  position: absolute;
+  top: 215px;
+  right: 201.15px;
+}
+
+.data__otz-svg-diploma {
+  position: absolute;
+  top: 0;
+  right: 188px;
 }
 
 .footer {
