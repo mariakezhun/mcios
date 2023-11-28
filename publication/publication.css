@@ -504,7 +504,36 @@ input[type='checkbox']:checked ~ .header__square-pic {
   margin: 0 0 60px;
 }
 
+@media all and (max-width: 650px) {
+  .footer__logo-container {
+    flex-direction: column;
+    row-gap: 10px;
+    margin: 0 0 20px;
+  }
+}
+
 .footer__logo-svg {
+}
+
+@media all and (max-width: 650px) {
+  .footer__logo-svg_type_ec {
+    width: 101px;
+    height: 17px;
+  }
+}
+
+@media all and (max-width: 650px) {
+  .footer__logo-svg_type_logo {
+    width: 44.5px;
+    height: 17px;
+  }
+}
+
+@media all and (max-width: 650px) {
+  .footer__logo-svg_type_he {
+    width: 95.5px;
+    height: 21px;
+  }
 }
 
 .footer__nav-bar {
@@ -514,16 +543,37 @@ input[type='checkbox']:checked ~ .header__square-pic {
   justify-content: space-between;
 }
 
+@media all and (max-width: 650px) {
+  .footer__nav-bar {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+  }
+}
+
 .footer__link {
   margin: 0;
   padding: 0;
-  text-decoration: none;
   color: #fff;
   font-family: Random Grotesque Standard Book;
-  font-size: 15px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  text-decoration: none;
+  transition: opacity 1s ease-in-out;
+}
+
+.footer__link:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+@media all and (max-width: 900px) {
+  .footer__link {
+    font-size: 15px;
+    line-height: 15px;
+  }
 }
 
 .footer__devider {
@@ -531,6 +581,12 @@ input[type='checkbox']:checked ~ .header__square-pic {
   border: 1px solid #fff;
   margin: 30px 0 30px;
   max-width: 830px;
+}
+
+@media all and (max-width: 650px) {
+  .footer__devider {
+    margin: 20px 0 20px;
+  }
 }
 
 .footer__subtitle {
@@ -542,7 +598,52 @@ input[type='checkbox']:checked ~ .header__square-pic {
   font-style: normal;
   font-weight: 400;
   line-height: 20px; /* 100% */
+  text-align: center;
 }
+
+/* @media all and (max-width: 650px) {
+  .footer__subtitle {
+    font-size: 15px;
+    line-height: 15px;
+  }
+} */
+
+.footer__contacts {
+  display: flex;
+  width: 100%;
+  max-width: 830px;
+  justify-content: space-between;
+  margin: 20px 0 0;
+}
+
+@media all and (max-width: 900px) {
+  .footer__contacts {
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0 0;
+    gap: 10px;
+  }
+}
+
+.footer__contact-text {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-family: Random Grotesque Standard Book;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+@media all and (max-width: 900px) {
+  .footer__contact-text {
+    font-size: 15px;
+    line-height: 15px;
+    text-align: center;
+  }
+}
+
 
 .hide {
   opacity: 1;
