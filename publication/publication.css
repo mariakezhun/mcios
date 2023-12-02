@@ -253,17 +253,40 @@ input[type='checkbox']:checked ~ .header__square-pic {
   max-width: 1200px;
 }
 
+.publication__article-margin {
+  margin: 0 auto 0;
+  max-width: 1200px;
+}
+
 /* .publication__container {
   margin: 0 20px 0;
 } */
 
 .publication__container {
+  margin: 0 20px 0;
   padding: 20px;
   display: flex;
   flex-direction: column;
   row-gap: 10px;
   max-width: 1120px;
-  margin: 20px auto;
+  margin: 20px;
+}
+
+.publication__title-container {
+  margin: 0 20px 0;
+  padding: 15px 20px 15px 20px;
+  background: #3458ff;
+}
+
+.publication__main-title {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-family: Random Grotesque Standard Book;
+  font-size: 41px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px; /* 121.951% */
 }
 
 .publication__title {
@@ -288,12 +311,12 @@ input[type='checkbox']:checked ~ .header__square-pic {
 }
 
 .publication__tag {
-  margin: 60px 0 120px;
+  margin: 0;
   border-radius: 5px;
   border: 2px solid #3458ff;
   background: #fff;
   display: flex;
-  padding: 15px 15px 14px 15px;
+  padding: 10px 15px;
   justify-content: center;
   align-items: center;
   gap: 10px;
