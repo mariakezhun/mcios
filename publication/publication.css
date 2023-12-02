@@ -253,8 +253,17 @@ input[type='checkbox']:checked ~ .header__square-pic {
   max-width: 1200px;
 }
 
-.publication__container {
+/* .publication__container {
   margin: 0 20px 0;
+} */
+
+.publication__container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  max-width: 1120px;
+  margin: 20px auto;
 }
 
 .publication__title {
@@ -399,6 +408,13 @@ input[type='checkbox']:checked ~ .header__square-pic {
   line-height: 32px; /* 100% */
   max-width: 840px;
   font-kerning: none;
+}
+
+@media all and (max-width: 650px) {
+  .publication__title {
+    font-size: 24px;
+    line-height: 24px; /* 100% */
+  }
 }
 
 .publication__arrow {
