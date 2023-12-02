@@ -1,6 +1,6 @@
-const filterTag = document.querySelectorAll('.publication__article');
-const publicationContainer = document.querySelector('.publication__container');
-const publicationDevider = document.querySelector('.publication__devider');
+const filterTag = document.querySelectorAll('.publication__container');
+// const publicationContainer = document.querySelector('.publication__container');
+// const publicationDevider = document.querySelector('.publication__devider');
 
 document.querySelector('.publication__tags').addEventListener('click', (e) => {
   if (e.target.tagName !== 'LI') return false;
@@ -12,7 +12,6 @@ document.querySelector('.publication__tags').addEventListener('click', (e) => {
     el.classList.remove('hide');
     if (!el.classList.contains(filterClass)) {
       el.classList.add('hide');
-      console.log(el)
       // if (el.classList.contains('hide') && el.classList.contains(filterClass)) {
       //   publicationDevider.classList.add('hide');
       //   // console.log(publicationContainer)
