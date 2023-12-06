@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .circle {
+      width: 100px;
+      height: 100px;
+      background-color: #ff0000;
+      border-radius: 50%;
+      position: absolute;
+      animation: moveCircle 2s infinite alternate;
+    }
+
+    .circle2 {
+      width: 100px;
+      height: 100px;
+      background-color: #00ff00;
+      border-radius: 50%;
+      position: absolute;
+      animation: moveCircle 2s infinite alternate-reverse;
+    }
+
+    @keyframes moveCircle {
+      0% {
+        top: 0;
+        left: 0;
+      }
+      100% {
+        top: 200px;
+        left: 200px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="circle"></div>
+  <div class="circle2"></div>
+</body>
+</html>
