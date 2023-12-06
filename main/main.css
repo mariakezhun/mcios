@@ -541,41 +541,41 @@ input[type='checkbox']:checked ~ .header__square-pic {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   /* grid-template-rows: 324px 174px 324px 324px 174px 324px; */
-  grid-template-rows: 324px 174px 324px 324px;
+  grid-template-rows: 324px 174px 324px 324px 324px;
   grid-gap: 20px;
 }
 
 @media all and (max-width: 1075px) {
   .staff__cards {
     /* grid-template-rows: 290px 120px 290px 290px 120px 290px; */
-    grid-template-rows: 290px 120px 290px 290px;
+    grid-template-rows: 290px 120px 290px 290px 290px;
   }
 }
 
 @media all and (max-width: 790px) {
   .staff__cards {
     /* grid-template-rows: 255px 120px 255px 255px 120px 255px; */
-    grid-template-rows: 255px 120px 255px 255px;
+    grid-template-rows: 255px 120px 255px 255px 255px;
   }
 }
 
 @media all and (max-width: 700px) {
   .staff__cards {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 350px 350px 350px 350px 350px 350px;
+    grid-template-rows: 350px 350px 350px 350px 350px 350px 350px;
   }
 }
 
 @media all and (max-width: 500px) {
   .staff__cards {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 300px 300px 300px 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px 300px 300px 300px 300px;
   }
 }
 @media all and (max-width: 411px) {
   .staff__cards {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 240px 240px 240px 240px 240px 240px;
+    grid-template-rows: 240px 240px 240px 240px 240px 240px 240px;
   }
 }
 
@@ -865,6 +865,13 @@ input[type='checkbox']:checked ~ .header__square-pic {
   background-image: url(https://i.pinimg.com/originals/68/6c/7c/686c7cb6440e9708f3787db8c70cb0f9.png);
   /* background-size: 120%;
   background-position: 58% 2%; */
+  background-size: cover;
+}
+
+.staff__yk {
+  background-image: url(https://i.pinimg.com/originals/0b/03/47/0b0347ca555fcc00cb8c70e609312fae.png);
+  background-size: 120%;
+  background-position: 40% 2%;
   background-size: cover;
 }
 
