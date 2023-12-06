@@ -871,13 +871,17 @@ input[type='checkbox']:checked ~ .header__square-pic {
   }
 } */
 
-.data__anketa {
+.data__anketa-container {
   background: #b3ffd1;
   color: #3458ff;
   border-radius: 5px;
   padding: 1px 5px 1px;
   text-decoration: none;
   transition: opacity 1s ease-in-out;
+}
+
+.data__anketa {
+  color: #3458ff;
 }
 
 .data__anketa:hover {
