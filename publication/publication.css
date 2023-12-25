@@ -302,6 +302,31 @@ input[type='checkbox']:checked ~ .header__square-pic {
   grid-template-columns: repeat(5, 1fr);
 }
 
+@media all and (max-width: 900px) {
+  .publication__years-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media all and (max-width: 500px) {
+  .publication__years-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media all and (max-width: 440px) {
+  .publication__years-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media all and (max-width: 370px) {
+  .publication__years-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+
 .publication__year {
   /* max-width: 212px; */
   max-height: 212px;
@@ -312,6 +337,66 @@ input[type='checkbox']:checked ~ .header__square-pic {
   align-items: center;
   justify-content: center;
   text-decoration: none;
+}
+
+@media all and (max-width: 1024px) {
+  .publication__year {
+    height: 180px;
+  }
+}
+
+@media all and (max-width: 960px) {
+  .publication__year {
+    height: 168px;
+  }
+}
+
+@media all and (max-width: 660px) {
+  .publication__year {
+    height: 140px;
+  }
+}
+
+@media all and (max-width: 660px) {
+  .publication__year {
+    height: 125px;
+  }
+}
+
+@media all and (max-width: 540px) {
+  .publication__year {
+    height: 110px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .publication__year {
+    height: 140px;
+  }
+}
+
+@media all and (max-width: 460px) {
+  .publication__year {
+    height: 126px;
+  }
+}
+
+@media all and (max-width: 440px) {
+  .publication__year {
+    height: 190px;
+  }
+}
+
+@media all and (max-width: 420px) {
+  .publication__year {
+    height: 180px;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .publication__year {
+    height: 170px;
+  }
 }
 
 .publication__year_color_white {
@@ -363,6 +448,27 @@ input[type='checkbox']:checked ~ .header__square-pic {
   font-weight: 400;
   line-height: 64px;
   transition: font-size 0.15s ease-in;
+}
+
+@media all and (max-width: 960px) {
+  .publication__year-text {
+    font-size: 50px;
+    line-height: 50px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .publication__year-text {
+    font-size: 41px;
+    line-height: 41px;
+  }
+}
+
+@media all and (max-width: 440px) {
+  .publication__year-text {
+    font-size: 50px;
+    line-height: 50px;
+  }
 }
 
 /* .publication__year:hover .publication__year-text {
