@@ -589,6 +589,11 @@ input[type='checkbox']:checked ~ .header__square-pic {
   margin: 20px 0 20px;
 }
 
+.research-prj__container_type_description {
+  padding: 0;
+  margin: 0;
+}
+
 .research-prj__accordion-item-header_type_white {
   color: #fff;
   margin: 0;
@@ -626,6 +631,47 @@ input[type='checkbox']:checked ~ .header__square-pic {
 
 @media all and (max-width: 650px) {
   .research-prj__accordion-item-header_type_white::after {
+    font-size: 20px;
+    top: 5px;
+  }
+}
+.research-prj__accordion-item-header_type_blue {
+  color: #3458ff;
+  margin: 0;
+  font-size: 20px;
+  line-height: 70%;
+}
+.research-prj__accordion-item-header_type_blue::after {
+  content: '▼';
+  color: #3458ff;
+  font-family: Random Grotesque Standard Book;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  position: absolute;
+  right: 0;
+  top: 2px;
+}
+.research-prj__accordion-item-header_type_blue.active::after {
+  content: '▲';
+}
+
+/* @media all and (max-width: 650px) {
+  .research-prj__accordion-item-header_type_blue {
+    font-size: 24px;
+  }
+} */
+
+@media all and (max-width: 650px) {
+  .research-prj__accordion-item-header_type_blue::after {
+    font-size: 24px;
+    top: 5px;
+  }
+}
+
+@media all and (max-width: 650px) {
+  .research-prj__accordion-item-header_type_blue::after {
     font-size: 20px;
     top: 5px;
   }
@@ -754,6 +800,17 @@ input[type='checkbox']:checked ~ .header__square-pic {
   border-radius: 10px;
   background: #3458ff;
   cursor: pointer;
+}
+
+.research-prj__prjct-paragraph{
+  margin: 10px 0 0;
+  padding: 0;
+  color: #333;
+  font-family: Random Grotesque Standard Book;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 100% */
 }
 
 .footer {
